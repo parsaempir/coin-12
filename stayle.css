@@ -1,0 +1,529 @@
+body{
+    overflow-x: hidden;
+    background: rgb(236, 239, 241);
+    margin: 0;
+}
+.box{
+    background: linear-gradient(97.53deg, rgb(246, 135, 179) 5.6%, rgb(123, 97, 255) 59.16%, rgb(22, 209, 161) 119.34%);
+width: 100%;
+height: 35;
+text-align: center;
+}
+a:link{
+    text-decoration: none;
+}
+.human{
+    color: white;
+    font-family: sans-serif; 
+    font-size: 14;
+}
+
+.icon{
+    position: relative;
+    right: 10;
+    top: 5;
+}
+.icon1{
+    position: relative;
+    left: 5;
+    top: 5;
+}
+.pavel{
+   /* width: 100%;
+    max-width: 1100;
+        margin: auto;
+        position: relative;
+        top: 17;*/
+        position: relative;
+        right: 560;
+}
+.a1:hover{
+background-color: rgba(214, 213, 213, 0.284);
+transition: all 200ms;
+}
+.a1{
+   position: relative;
+   top: 5;
+    padding: 20 15 18 15;
+}
+.navon{
+    background-color: white;
+    height: 55;
+    position: fixed;
+    width: 100%;
+   z-index: 5;
+   position:sticky;
+   top: 0;
+   
+}
+.a1{
+   color: rgba(0, 0, 0, 0.238);
+      font: 0.9rem "Fira Sans", sans-serif; 
+    }
+    
+.a1:link{
+color: rgba(0, 0, 0, 0.582);
+}
+.svg2{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 35;
+  height: 0;
+width: 0;
+
+   
+}
+.svg1:hover{
+    background-color:rgba(214, 213, 213, 0.284) ;
+}
+.svg1{
+    position: relative;
+   right: 560;
+    padding: 10 15 10 15;
+    bottom: 15;
+}
+.display{
+    width: 100%;
+    max-width: 1150;
+    margin: auto;
+  position: relative;
+  top: 15;
+
+}
+/*.rokk{
+    width: 100%;
+    max-width: 1100;
+    margin: auto;
+position: relative;
+top: 16;
+}*/
+/*.select-input{
+    display: flex;
+    justify-content: end;
+    position: relative;
+   left: 500;
+}
+.serch{
+    width: 15px;
+    position: absolute;
+    top:    5px;
+    right: 10px;
+}
+
+
+#editableDiv {
+    position: relative;
+}*/
+.ever1{
+    display: flex;
+    justify-content: center;
+    height: 0;
+    position: relative;
+    left: 530;
+}
+#inputu{
+    width: 200;
+    height: 35;
+    display: none;
+    position: relative;
+ right: 150;
+ border-radius: 4px;
+ border: 2px solid rgba(0, 0, 0, 0.66);
+
+
+}
+#serch{
+    position: absolute;   
+top: 10;
+cursor: text;
+}
+body {
+    font-family: Arial, sans-serif;
+  
+}
+
+.selected2{
+    position: relative;
+    width: 1px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    user-select: none;
+    right: 220;
+    cursor: text;
+
+}
+.q13{
+    position: relative;
+    right: 142;
+    top: 13;
+}
+.selected-option {
+    padding: 10px;
+    border: 1px solid white;
+    background-color: white;
+  height: 10;
+ 
+  
+}
+
+.options1 {
+  position: relative;
+    right:60;
+    border: 1px solid rgba(0, 0, 0, 0.038);
+    background-color: white;
+    display: none;
+    z-index: 1;
+    overflow-y: scroll;
+    height: 200;
+    width: 150;
+   
+}
+
+.option {
+    padding: 10px;
+}
+
+.option:hover {
+    background-color: #f1f1f1;
+}
+
+.options1.show {
+    display: block;
+}
+.q12{
+    position: relative;
+    right: 250;
+    top: 13;
+}
+
+.selectedw2{
+    position: relative;
+    width:1px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    user-select: none;
+    right: 300;
+    cursor: text;
+}
+
+.selected-option1 {
+    padding: 10px;
+    border: 1px solid white;
+    background-color: white;
+  height: 10;
+}
+
+.optionsw1 {
+  position: relative;
+  
+    right:230;
+    border: 1px solid rgba(0, 0, 0, 0.038);
+    background-color: white;
+    display: none;
+    z-index: 1;
+    overflow-y: scroll;
+    height: 200;
+    width: 300;
+    
+}
+
+.option1 {
+    padding: 10px;
+}
+
+.option1:hover {
+    background-color: #f1f1f1;
+}
+
+.optionsw1.show {
+    display: block;
+}
+
+
+    .svg3{
+        position: relative;
+      left: 40;
+      top: 10;
+      cursor: pointer;
+    }
+    .imgt1{
+        width: 100%;
+    max-width: 1120;
+    margin: auto;
+    height: 0;
+    display: flex;
+    justify-content: end;
+    }
+.all{
+
+    background: linear-gradient(to right, rgb(63, 81, 181), rgb(100, 181, 246)) rgb(255, 255, 255);
+   height: 200;
+  z-index: 333;
+}
+.heder{
+    width: 100%;
+  max-width: 1050;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+    color: white;
+}
+.textall{
+    font-size: 0.9em;
+    font-weight: 700;
+  position: relative;
+  
+}
+
+.number{
+    font-size: 23;
+    font-weight: normal;
+    position: relative;
+    left: 15;
+}
+.number1{
+    font-size: 23;
+    font-weight: normal;
+}
+.number2{
+    font-size: 23;
+    font-weight: normal;
+    position: relative;
+    left: 30;
+}
+.number3{
+    font-size: 23;
+    font-weight: normal;
+    position: relative;
+  left: 8;
+}
+.number4{
+    font-size: 23;
+    font-weight: normal;
+    position: relative;
+  left: 33;
+}
+.textall1{
+    font-size: 0.9em;
+    font-weight: 700;
+    position: relative;
+right:5 ;
+}
+.textall2{
+    font-size: 0.9em;
+    font-weight: 700;
+   
+}
+.textall3{
+    font-size: 0.9em;
+    font-weight: 700;
+    position: relative;
+  left: 15;
+}
+.textall4{
+    font-size: 0.9em;
+    font-weight: 700;
+    position: relative;
+    left: 40;
+}
+.textall5{
+    font-size: 0.9em;
+    font-weight: 700;
+    position: relative;
+    left: 70;
+}
+.arz1{
+    width: 100%;
+    max-width: 1200;
+    margin: auto;
+    background-color: white;
+ 
+    position: relative;
+left: 20;
+bottom: 120px;
+border-radius: 3px;
+
+
+}
+.crypto-container {
+    display: flex;
+flex-direction: column;
+
+}
+.crypto-card {
+    border-top: 1px solid #00000016;
+   width: 100%;
+  align-items: center; 
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+height: 60;
+ }
+ 
+
+.coin-icon{
+    height: 30;
+  position: relative;
+
+right: 15;
+}
+.api1{
+  width: 0;
+ font-size: 14;
+ color: rgba(0, 0, 0, 0.682);
+
+position: relative;
+
+margin: 30;
+}
+.api2{
+    width: 0;
+position: relative;
+
+  }
+  .text-name{
+    width: 130;
+ font-size: 15;
+    color: rgba(0, 0, 0, 0.816);
+    position: relative;
+right: 85;
+    line-height: 1.5;
+  }
+  .crypto-card:hover{
+    background-color: rgba(0, 0, 0, 0.067);
+    transition: all 500ms;
+  }
+.text-coin{
+color: rgba(0, 0, 0, 0.562);
+font-size: 10;
+}
+.text-name:hover{
+text-decoration:underline;
+
+}
+.first1{
+display: flex;
+justify-content: end;
+gap: 68px;
+position: relative;
+right: 24;
+bottom:15 ;
+font-size: 13;
+color: rgba(0, 0, 0, 0.493);
+height: 0;
+}
+.first{
+display: flex;
+}
+.dwon{
+cursor: pointer;
+height: 45;
+}
+.titr{
+padding: 15 20 0 20;
+font-size: 12;
+
+}
+#titr1{
+    color: rgba(0, 0, 0, 0.493);
+}
+#titr1:hover{
+    color: rgba(0, 0, 0, 0.805);
+    transition: all 500ms;
+}
+.hover:hover{
+    color: rgba(0, 0, 0, 0.805);
+    transition: all 500ms;
+}
+.hover1:hover{
+    color: rgba(0, 0, 0, 0.805);
+    transition: all 500ms;
+}
+.hover2:hover{
+    color: rgba(0, 0, 0, 0.805);
+    transition: all 500ms;
+}
+.hover3:hover{
+    color: rgba(0, 0, 0, 0.805);
+    transition: all 500ms;
+}
+.hover4:hover{
+    color: rgba(0, 0, 0, 0.805);
+    transition: all 500ms;
+}
+.hover5:hover{
+    color: rgba(0, 0, 0, 0.805);
+    transition: all 500ms;
+}
+.crate1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30;
+    height: 0;
+}
+#load-more{
+    width: 115;
+    height: 39;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 15;
+    background: rgb(24, 198, 131);
+    border: 1px solid white;
+    cursor: pointer;
+}
+#load-more:hover {
+    transform: translateY(-2px);
+    transition: all 500ms;
+}
+.end{
+    background-image: linear-gradient(to right, rgb(63, 81, 181), rgb(100, 181, 246));
+    width: 100%;
+    height: 260;
+  position: relative;
+  bottom: 30;
+
+}
+.end1{
+    width: 100%;
+    max-width: 1150;
+    margin: auto;
+    display: flex;
+gap: 150px;
+padding: 25;
+}
+.coin-api{
+    color: white;
+    font-weight:bold;
+    line-height: 3.5;
+    font-size: 15;
+}
+.coin-api1{
+    color: rgba(255, 255, 255, 0.519);
+    font-size:16;
+    font-family: 'Roboto Condensed', sans-serif;
+} 
+                .coin-api1:hover{
+                    color: white;
+                }
+                .coin-api2{
+                    color: rgba(255, 255, 255, 0.519);
+                    font-size: 14;
+                }
+                .crom:hover{
+                    background-image:url(fasbook.svg) ;
+                }
+                .crom1:hover{
+                    background-image:url(twitter.svg) ;
+                }
+                .google1:hover{
+                    background-image:url(play.svg) ;
+                }
+                .apple1:hover{
+                    background-image: url(apple.svg);
+                }
+              .blue{
+                height: 0;
+              }
